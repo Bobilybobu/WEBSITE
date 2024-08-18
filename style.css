@@ -81,7 +81,7 @@ h1, h2, h3{
     flex-direction: column;
     justify-content: space-between;
     font-family: bodonx ;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/background.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.jpg') center/cover no-repeat fixed;
     height: 70vh; /* Full viewport height */
 }    
 
@@ -305,7 +305,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/background.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.jpg') center/cover no-repeat fixed;
     height: 70vh; /* Full viewport height */
 }    
 
@@ -346,7 +346,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/background.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.jpg') center/cover no-repeat fixed;
     height: 70vh; /* Full viewport height */
 }    
 
