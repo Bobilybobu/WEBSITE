@@ -70,10 +70,8 @@ h1, h2, h3{
     gap: 1rem;
 }
 .lead{
-    opacity: 0.8;
     padding: 1rem 0;
     font-size: 1.7rem;
-    font-weight: 300;
     line-height: 1.8;
 }
 
@@ -83,7 +81,7 @@ h1, h2, h3{
     flex-direction: column;
     justify-content: space-between;
     font-family: bodonx ;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/background.jpg') center/cover no-repeat fixed;
     height: 70vh; /* Full viewport height */
 }    
 
@@ -297,13 +295,17 @@ h1, h2, h3{
     object-fit: cover; /* Ensures the image covers the set height while maintaining aspect ratio */
     display: block; /* Removes bottom margin/space */
 }
+
+.photo img:hover {
+    opacity: 70%;
+}
 /*gallery*/
 
 #header-gallery{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/background.jpg') center/cover no-repeat fixed;
     height: 70vh; /* Full viewport height */
 }    
 
@@ -327,10 +329,10 @@ h1, h2, h3{
 
 .photo {
     break-inside: avoid;
-    margin-top: 20px;
-    margin-bottom: 20px; 
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px; 
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .photo img {
@@ -344,7 +346,7 @@ h1, h2, h3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('background.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('images/background.jpg') center/cover no-repeat fixed;
     height: 70vh; /* Full viewport height */
 }    
 
